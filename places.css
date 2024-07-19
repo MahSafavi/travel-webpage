@@ -6,7 +6,19 @@ body{
 
 header{
     position: static;
+}
 
+#page-logo a{
+    color: rgb(183, 230, 235);
+}
+
+header li a{
+    color: rgb(183, 230, 235);
+}
+
+header nav a:hover{
+    background-color: rgb(183, 230, 235) ;
+    color: rgb(59, 59, 59);
 }
 
 main ul{
@@ -40,6 +52,10 @@ main li img{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.item-content h2{
+    margin: 0;
 }
 
 .actions{
